@@ -1,0 +1,53 @@
+{
+  "name": "pack-bmfonts",
+  "version": "1.0.0",
+  "description": "packs multiple BMFont files into a single binary buffer",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "bin": {
+    "pack-bmfonts": "./cli.js"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "glob": "^5.0.3",
+    "load-bmfont": "^1.2.2",
+    "minimist": "^1.1.1",
+    "write-bmfont-binary": "^1.0.1"
+  },
+  "devDependencies": {
+    "buffer-equal": "0.0.1",
+    "parse-bmfont-ascii": "^1.0.6",
+    "parse-bmfont-binary": "^1.0.5",
+    "tape": "^3.5.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "pack",
+    "multi",
+    "font",
+    "bm",
+    "font",
+    "bmfont",
+    "bitmap",
+    "angel",
+    "code",
+    "angelcode",
+    "binary",
+    "binaries"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/pack-bmfonts.git"
+  },
+  "homepage": "https://github.com/mattdesl/pack-bmfonts",
+  "bugs": {
+    "url": "https://github.com/mattdesl/pack-bmfonts/issues"
+  }
+}
